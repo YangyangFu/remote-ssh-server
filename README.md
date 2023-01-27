@@ -43,8 +43,7 @@ Basic software are required on MacOS for this purpose:
 - Visual Studio Code: [download here](https://code.visualstudio.com).
 
 Once the VSCode is installed, the following extensions should also be installed:
-- Docker
-- Python
+- python
 - Remote Development, which include Remote-SSH, Dev Container, and WSL
 - Remote Explorer
 
