@@ -63,3 +63,13 @@ Now connect to the Windows server through Remote SSH:
 - click the far left bottom on a VSCode window: open a Remote Window
 - then follow the promped instructions: Connect to a Host -> Add New SSH Host 
 
+## Example
+
+This is to show the capability of editing a Jupyter Notebook file in the remote server from local computers when the above connection is established.
+
+After connect to the server using VSCode, 
+
+- open remote folder in local VScode: D:\kaggle\2023\1-XXXX. This should require the passcode again.
+- open the notebook file in `yfu\test_notebook.ipynb`
+- select jupyter notebook kernel if needed. Here we should use `pytorch-cuda-11.8`.
+- run the notebook file in the local VSCode
